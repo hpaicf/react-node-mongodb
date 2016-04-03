@@ -1,0 +1,20 @@
+{
+  "name": "test1_1",
+  "version": "1.0.0",
+  "description": "testreact",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"*.*\""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "browser-sync": "^2.11.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.10",
+    "path": "^0.12.7"
+  }
+}
