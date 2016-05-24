@@ -1,15 +1,15 @@
-/*react小demo  react文档例子上有
+/*react小demo  
   测试一个评论功能  提交表单，ajax请求数据 改变渲染真实dom  例子中使用ES6语法糖
   展示所有评论的界面
   发布评论的表单
-  后端 API 接口地址，该接口需要其他实现*/
+  后端 API 接口地址，该接口暂时用node实现*/
 
 class Comment extends React.Component{
 
    
   deleteHandleComment(e){
       e.preventDefault();//因为提交表单的时候浏览器会刷新，所以在这里就阻止浏览器默认事件
-      // 就提交给父组件 改变state
+      // 提交给父组件 改变state
       this.props.onDelete({date:this.props.date.toLocaleString()});//表示调用  调用这个组件的是传入的props方法 也就是Commentbox里的子组件的props  onSubmit方法
   }
  
