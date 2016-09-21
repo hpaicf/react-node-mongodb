@@ -3,3 +3,5 @@
 * react作为view层  
 * node作为后台服务端
 * mongodb数据库
+
+##有详细的注释
